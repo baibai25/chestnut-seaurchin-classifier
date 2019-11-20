@@ -9,6 +9,7 @@ np.random.seed(42)
 # generate new data
 def gen_data(files, save_path):
     
+    save_name = 'img_' + os.path.basename(save_path)
     for i, file in enumerate(files):
         # load image
         print(file)
@@ -24,7 +25,7 @@ def gen_data(files, save_path):
         )
         
         # generate and save image
-        g = gen.flow(X, batch_size=1, save_to_dir=save_path, save_prefix='img', save_format='jpg')
+        g = gen.flow(X, batch_size=1, save_to_dir=save_path, save_prefix=save_name, save_format='jpg')
         for i in range(4):
             batch = g.next()
 
