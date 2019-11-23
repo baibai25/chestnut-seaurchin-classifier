@@ -10,9 +10,16 @@ def main():
     
     # download images 
     response = google_images_download.googleimagesdownload()    # class instantiation
-    arguments = {'keywords': args.keywords, 'limit': args.limit, 'print_urls':True} # creating list of arguments
+    
+    # creating list of arguments
+    arguments = {
+        'keywords': args.keywords,
+        'limit': args.limit,
+        #'print_urls':True,
+        'chromedriver': '/usr/bin/chromedriver'
+    } 
+    
     paths = response.download(arguments)   # passing the arguments to the function
-    print(paths)
 
 
 if __name__ == '__main__':
