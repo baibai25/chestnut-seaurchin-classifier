@@ -21,7 +21,7 @@ def gen_data(files, save_path):
         gen = ImageDataGenerator(
             horizontal_flip=True,
             vertical_flip=True,
-            rotation_range = 90,
+            rotation_range = 90
         )
         
         # generate and save image
