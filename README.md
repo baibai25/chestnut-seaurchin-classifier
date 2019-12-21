@@ -19,7 +19,7 @@ python augmentation.py -i input_dir -o output_dir
 ## Building a object detector using YOLO
 1. Download
 ```
-git clone https://github.com/pjreddie/darknet.git
+git clone https://github.com/AlexeyAB/darknet.git
 cd darknet/
 make
 
