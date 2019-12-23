@@ -1,6 +1,9 @@
 
 # chestnut-seaurchin-classifier
 
+## Models
+https://drive.google.com/open?id=1Yoq3Nwx72zXTtANvEqp_aNCvoo3wtk_A
+
 ## Scraping
 -k: Search words  
 -l: Number of images to download 
