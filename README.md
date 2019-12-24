@@ -17,9 +17,12 @@ https://drive.google.com/open?id=1Yoq3Nwx72zXTtANvEqp_aNCvoo3wtk_A
 2. Run with YOLO
 
 ```
-./darknet detector test cfg/foo.data cfg/foo.cfg 
-unikuri_best.weights test_img.jpg
+./darknet detector test cfg/foo.data cfg/foo.cfg unikuri_best.weights test_img.jpg
 ```
+
+### Translation
+kuri means chestnut.
+uni means sea urchin.
 
 ## Scraping
 -k: Search words  
