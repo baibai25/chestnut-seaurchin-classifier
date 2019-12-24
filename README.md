@@ -1,5 +1,6 @@
 
 # chestnut-seaurchin-classifier
+<img src="https://github.com/baibai25/chestnut-seaurchin-classifier/blob/master/images/1.jpeg" width=60%>
 
 ## Models
 https://drive.google.com/open?id=1Yoq3Nwx72zXTtANvEqp_aNCvoo3wtk_A
@@ -17,7 +18,6 @@ python download.py -k keywords A, keywords B -l 1000
 ```
 python augmentation.py -i input_dir -o output_dir
 ```
-
 
 ## Building a object detector using YOLO
 1. Download
@@ -39,3 +39,8 @@ cfg/foo.cfg
 ```
 ./darknet detector train cfg/foo.data cfg/foo.cfg darknet53.conv.74 
 ```
+## 
+
+## Result
+<img src="https://github.com/baibai25/chestnut-seaurchin-classifier/blob/master/images/plot.png" width=60%>
+<img src="https://github.com/baibai25/chestnut-seaurchin-classifier/blob/master/images/2.jpeg" width=60%>
