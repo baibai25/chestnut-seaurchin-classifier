@@ -1,0 +1,5 @@
+classes=2
+train = data/labeled_data/train.txt
+valid = data/labeled_data/test.txt
+names = cfg/unikuri.names
+backup = data/backup
